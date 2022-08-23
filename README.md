@@ -10,7 +10,7 @@
     <meta charset="utf-8">
   </head>
   <body>
-    {{ %(var) = 30 }} <!-- setting variable -->
+    {{ %(var) = "Hello World" }} <!-- setting variable -->
     <p>{{ var$ }}</p> <!-- calling variable -->
   </body>
 </html>
@@ -23,6 +23,6 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <p>30</p>
+    <p>Hello World</p>
   </body>
 </html>
