@@ -3,7 +3,7 @@ class Messx {
         const fs = require('fs');
         const {parse} = require('node-html-parser');
         const path = require('path');
-        const root = parse(fs.readFileSync(rootDir));
+        const root = parse(fs.readFileSync(rootFile));
         const variables = [];
         const VarError = require('./varError');
         const rimraf = require('rimraf');
@@ -62,3 +62,5 @@ class Messx {
 }
 
 module.exports = Messx;
+
+new Messx("./test/index.msx");
