@@ -62,5 +62,3 @@ class Messx {
 }
 
 module.exports = Messx;
-
-new Messx("./test/index.msx");
