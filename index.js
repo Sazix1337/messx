@@ -1,5 +1,5 @@
 class Messx {
-    constructor(rootDir) {
+    constructor(rootFile) {
         const fs = require('fs');
         const {parse} = require('node-html-parser');
         const path = require('path');
