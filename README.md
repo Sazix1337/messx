@@ -1,7 +1,8 @@
 # Messx
 
 **Easy HTML library, thats allows you use variables in .msx file and use html syntax too. If you have any questions, my discord is: > sazix#6510**
-
+## Update 1.1
+***String type was added and all variables must be in quotes***
 # Example
 `index.msx`
 ```html
@@ -10,7 +11,7 @@
     <meta charset="utf-8">
   </head>
   <body>
-    {{ %(var) = 30 }} <!-- setting variable -->
+    {{ %(var) = "Hello World" }} <!-- setting variable -->
     <p>{{ var$ }}</p> <!-- calling variable -->
   </body>
 </html>
@@ -23,6 +24,6 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <p>30</p>
+    <p>Hello World</p>
   </body>
 </html>
