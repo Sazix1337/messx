@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "node-html-parser": "^5.4.2-0"
+    "node-html-parser": "^5.4.2-0",
+    "rimraf": "^3.0.2"
   }
 }
