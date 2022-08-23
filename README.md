@@ -1,7 +1,8 @@
 # Messx
 
 **Easy HTML library, thats allows you use variables in .msx file and use html syntax too. If you have any questions, my discord is: > sazix#6510**
-
+## Update 1.1
+***String type was added and all variables must be in quotes***
 # Example
 `index.msx`
 ```html
